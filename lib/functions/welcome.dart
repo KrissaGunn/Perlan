@@ -1,13 +1,5 @@
-/*
-Create a welcome screen for the user,
-use your imagination! ASCI art? Funny text? Simple message?
+ void welcome() {
+    print("--------welcome to jack's black blackjack!---------");
+  }
 
-Your choice!
 
-The only rule is that it should be a function
-that has no input and simply prints a text.
-*/
-
-void Welcome(){
-
-}
