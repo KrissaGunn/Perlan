@@ -19,9 +19,24 @@ he doesn't input a integer?
  */
 
 int PlaceBet(int bankRoll){
-
+  bool active = true;
+  while (active) {
+    print('Place your bet');
+    int bet = int.parse(stdin.readLineSync()!);
+    if (bet > bankRoll || bet <= 0) {
+      print('Invalid bet');
+      return 0;
+    } else {
+      bankRoll = bankRoll - bet;
+    }
+    active = false;
+  }
+  return bankRoll;
 }
 
 int BuyIn(){
-
+print('Choose a starting buy in');
+int input = int.parse(stdin.readLineSync()!);
+return input;
 }
+
