@@ -8,8 +8,12 @@ import 'package:BlackJack/lib.dart';
 void main() {
 /*
   List deck = deckofCards();
-  drawCard(deck);
+  initalDeal(deck);
+  
   int bankRoll;
-  buyIn(bankRoll);
+  bankRoll = buyIn();
+  placeBet(bankRoll);
+  
+  drawCard(deck);
  */
 }
