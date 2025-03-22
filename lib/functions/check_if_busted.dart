@@ -20,5 +20,9 @@ Example inputs
 
 
 bool CheckIfBusted(List<int> hand){
-
+  if (hand > 21) {
+  return true;
+  }if (hand< 21){
+  return false;
+  }
 }
